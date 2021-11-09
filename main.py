@@ -5,8 +5,8 @@ import json
 
 while True:
     try:
-        cep = int(input('Digite o cep (Apenas números): ').strip())
-        if len(str(cep)) == 8:
+        cep = input('Digite o cep (Apenas números): ').strip()
+        if len(cep) == 8:
             break
     except:
         print('CEP INVÁLIDO!')
